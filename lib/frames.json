@@ -1,41 +1,5 @@
 [
   {
-    "id": "missing_frame",
-    "license_level": 0,
-    "source": "GMS",
-    "name": "ERR: DATA NOT FOUND",
-    "mechtype": ["Balanced"],
-    "y_pos": 0,
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this Frame. This is likely the result of a missing or outdated content pack.",
-    "mounts": [],
-    "stats": {
-      "size": 1,
-      "structure": 4,
-      "stress": 4,
-      "armor": 0,
-      "hp": 10,
-      "evasion": 8,
-      "edef": 8,
-      "heatcap": 6,
-      "repcap": 5,
-      "sensor_range": 10,
-      "tech_attack": 0,
-      "save": 10,
-      "speed": 4,
-      "sp": 6
-    },
-    "traits": [],
-    "core_system": {
-      "name": "ERR: MISSING DATA",
-      "active_name": "",
-      "active_effect": "",
-      "use": "Next Round",
-      "activation": "Free"
-    },
-    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/missing_frame.png",
-    "license_id": "missing_frame"
-  },
-  {
     "id": "mf_standard_pattern_i_everest",
     "license_level": 0,
     "source": "GMS",
@@ -174,10 +138,14 @@
       {
         "name": "Exposed Reactor",
         "description": "The Blackbeard receives +1 Difficulty on ENGINEERING checks and saves.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["engineering", "skill_check"],
-            "detail": "The Blackbeard gains +1 Difficulty on ENGINEERING checks and saves."
+            "id": "engineering_check",
+            "acc": -1
+          },
+          {
+            "id": "engineering_save",
+            "acc": -1
           }
         ]
       }
@@ -187,7 +155,15 @@
       "description": "The IPS-N-branded Assault Grappling System is a class-leading technology rated for hauling, supporting, and securing chassis of sizes up to Schedule 4. Grapple heads are interchangeable and can be swapped for engagement with soft or hard targets – either electrified or loaded with codespike systems for long-distance incapacitation.",
       "active_name": "Omni-harpoon",
       "active_effect": "This system fires grappling harpoons at any number of targets within Range 5 and line of sight. Affected characters must succeed on a Hull save or take 2d6 Kinetic damage and be knocked Prone, then pulled adjacent to you, or as close as possible. They become Immobilized until the end of their next turn. On a success, they take half damage and are otherwise unaffected.",
-      "activation": "Quick"
+      "activation": "Quick",
+      "active_actions": [
+        {
+          "name": "Omni-harpoon",
+          "activation": "Quick",
+          "trigger": "You fire grappling harpoons at any number of targets within Range 5 and line of sight.",
+          "detail": "Affected characters must succeed on a Hull save or take 2d6 Kinetic damage and be knocked Prone, then pulled adjacent to you, or as close as possible. They become Immobilized until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
+        }
+      ]
     },
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/mf_blackbeard.png",
     "license_id": "mf_blackbeard"
@@ -224,15 +200,20 @@
       },
       {
         "name": "Blast Plating",
-        "description": "The Drake has Resistance to damage, burn and heat from blast, burst, line, and cone attacks."
+        "description": "The Drake has Resistance to damage, burn and heat from blast, burst, line, and cone attacks.",
+        "resistances": [{ "range_types": ["blast", "burst", "line", "cone"] }]
       },
       {
         "name": "Slow",
         "description": "The Drake receives +1 difficulty on Agility checks and saves.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["agility", "skill_check"],
-            "detail": "The Drake receives +1 difficulty on Agility checks and saves."
+            "id": "agility_check",
+            "acc": -1
+          },
+          {
+            "id": "agility_save",
+            "acc": -1
           }
         ]
       },
@@ -280,7 +261,13 @@
     "traits": [
       {
         "name": "Insulated",
-        "description": "The Lancaster has Immunity to burn."
+        "description": "The Lancaster has Immunity to burn.",
+        "resistances": [
+          {
+            "damage_types": ["burn"],
+            "immune": true
+          }
+        ]
       },
       {
         "name": "Combat Repair",
@@ -347,7 +334,7 @@
       },
       {
         "name": "Skirmisher",
-        "description": "After attacking, the Nelson can immediately move 1 space in any direction as long as it isn’t Immobilize or Slowed. This movement ignores engagement and doesn’t provoke reactions."
+        "description": "After attacking, the Nelson can immediately move 1 space in any direction as long as it isn’t Immobilized or Slowed. This movement ignores engagement and doesn’t provoke reactions."
       }
     ],
     "core_system": {
@@ -541,7 +528,12 @@
     "traits": [
       {
         "name": "Repulsor Field",
-        "description": "The Black Witch has Resistance to Kinetic Damage."
+        "description": "The Black Witch has Resistance to Kinetic Damage.",
+        "resistances": [
+          {
+            "damage_types": ["kinetic"]
+          }
+        ]
       },
       {
         "name": "Mag Parry",
@@ -601,12 +593,11 @@
       {
         "name": "Perfected Targeting",
         "description": "The Death’s Head gains an additional +1 to all ranged attack rolls.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["weapon"],
-            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
-            "weapon_sizes": ["any"],
-            "detail": "The Death’s Head gains an additional +1 to all ranged attack rolls."
+            "id": "attack_roll",
+            "val": 1,
+            "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"]
           }
         ]
       }
@@ -690,10 +681,14 @@
       {
         "name": "Fragile",
         "description": "The Dusk Wing receives +1 difficulty on Hull checks and saves.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["hull", "skill_check"],
-            "detail": "The Dusk Wing receives +1 difficulty on Hull checks and saves."
+            "id": "hull_check",
+            "accuracy": -1
+          },
+          {
+            "id": "hull_save",
+            "accuracy": -1
           }
         ]
       }
@@ -1039,10 +1034,10 @@
       {
         "name": "Liturgicode",
         "description": "The Goblin gains +1 accuracy on tech attacks.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["tech_attack"],
-            "detail": "The Goblin gains +1 accuracy on tech attacks."
+            "id": "tech_attack",
+            "accuracy": 1
           }
         ]
       },
@@ -1062,10 +1057,14 @@
       {
         "name": "Fragile",
         "description": "The Goblin receives +1 difficulty on Hull checks and saves.",
-        "synergies": [
+        "bonuses": [
           {
-            "locations": ["hull", "skill_check"],
-            "detail": "The Goblin receives +1 difficulty on Hull checks and saves."
+            "id": "hull_check",
+            "accuracy": -1
+          },
+          {
+            "id": "hull_save",
+            "accuracy": -1
           }
         ]
       }
@@ -1259,7 +1258,8 @@
     "traits": [
       {
         "name": "Slag Carapace",
-        "description": "The Manticore has Resistance to Energy Damage and Burn."
+        "description": "The Manticore has Resistance to Energy Damage and Burn.",
+        "resistances": [{ "damage_types": ["burn", "energy"] }]
       },
       {
         "name": "Unstable System",
