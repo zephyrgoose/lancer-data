@@ -1,10 +1,3 @@
-Got it. I’ll create an `AGENTS.md` that defines how this GPT leverages the Lancer JSON ruleset and the rulebooks to provide structured, calculable, and rules-as-written assistance for users. It’ll include its authoritative sources, capabilities, and how it integrates Python for queries like builds, calculations, and lookups.
-
-I’ll also include a section proposing auxiliary files (e.g. `LOOKUPS.md`, `ANALYTICS.md`, `MAPPINGS.py`) to capture useful enum/index strategies, cross-references, and performance utilities.
-
-I’ll get that ready for you shortly.
-
-
 # Lancer Rules Assistant (LancerGPT)
 
 ## Overview and Purpose
