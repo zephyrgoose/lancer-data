@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 
 const data = {
   actions: require('./lib/actions.json'),
@@ -25,6 +25,7 @@ const data = {
   tags: require('./lib/tags.json'),
   talents: require('./lib/talents.json'),
   weapons: require('./lib/weapons.json'),
-}
+  downtime_actions: require('./lib/downtime_actions.json'),
+};
 
-module.exports = data
+module.exports = data;

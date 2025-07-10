@@ -6,7 +6,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "COMP/CON is unable to retrieve the data necessary to furnish this System. This is likely the result of a missing or outdated content pack.",
+    "effect": {
+      "description": "COMP/CON is unable to retrieve the data necessary to furnish this System. This is likely the result of a missing or outdated content pack."
+    },
     "description": "COMP/CON is unable to retrieve the data necessary to furnish this System. This is likely the result of a missing or outdated content pack.",
     "tags": [],
     "license_id": ""
@@ -30,7 +32,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech has a basic COMP/CON unit, granting it the AI tag. The COMP/CON can speak to you and has a personality, but, unlike an NHP, is not truly capable of independent thought. It is obedient to you alone.<br>You can give control of your mech to its COMP/CON as a protocol, allowing your mech to act independently on your turn with its own set of actions. Unlike other AIs, a mech controlled by a COMP/CON has no independent initiative and requires direct input. Your mech will follow basic courses of action (defend this area, attack this enemy, protect me, etc.) to the best of its ability, or will act to defend itself if its instructions are complete or it receives no further guidance. You can issue new commands at the start of your turn as long as you are within Range 50 and have the means to communicate with your mech. Comp/con units are not true NHPs and thus cannot enter cascade.",
+    "effect": {
+      "description": "Your mech has a basic COMP/CON unit, granting it the AI tag. The COMP/CON can speak to you and has a personality, but, unlike an NHP, is not truly capable of independent thought. It is obedient to you alone.<br>You can give control of your mech to its COMP/CON as a protocol, allowing your mech to act independently on your turn with its own set of actions. Unlike other AIs, a mech controlled by a COMP/CON has no independent initiative and requires direct input. Your mech will follow basic courses of action (defend this area, attack this enemy, protect me, etc.) to the best of its ability, or will act to defend itself if its instructions are complete or it receives no further guidance. You can issue new commands at the start of your turn as long as you are within Range 50 and have the means to communicate with your mech. Comp/con units are not true NHPs and thus cannot enter cascade."
+    },
     "description": "The GMS Companion/Concierge-Class Assistant Unit conforms to all galaxy-wide standards. These virtual assistants pass even the most rigid Turing-Null assessment criteria and are cleared to operate even in the absence of a pilot.",
     "license_id": ""
   },
@@ -49,7 +53,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "When you take structure damage, roll 1d6. On a 6, you return to 1 HP and ignore the damage – the hit simply ‘scratched your paint’.<br>This system can only be used once before each Full Repair, and is not a valid target for system destruction.",
+    "effect": {
+      "description": "When you take structure damage, roll 1d6. On a 6, you return to 1 HP and ignore the damage – the hit simply ‘scratched your paint’.<br>This system can only be used once before each Full Repair, and is not a valid target for system destruction."
+    },
     "license_id": ""
   },
   {
@@ -64,7 +70,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech has space for one additional non-Mech character or object of Size 1/2 to ride as a passenger in the cockpit. While inside the mech, they cannot suffer any effect from outside or be targeted by attacks, as if they were a pilot. You can hand over or take back control to or from them as a protocol (following the same rules as pilot and AIs), but if they take over the controls from you, the mech becomes Impaired and Slowed to reflect the lack of appropriate licenses and integration.",
+    "effect": {
+      "description": "Your mech has space for one additional non-Mech character or object of Size 1/2 to ride as a passenger in the cockpit. While inside the mech, they cannot suffer any effect from outside or be targeted by attacks, as if they were a pilot. You can hand over or take back control to or from them as a protocol (following the same rules as pilot and AIs), but if they take over the controls from you, the mech becomes Impaired and Slowed to reflect the lack of appropriate licenses and integration."
+    },
     "license_id": ""
   },
   {
@@ -79,7 +87,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech has an extra set of limbs. They are too small to have any combat benefit, but allow the mech to interact with objects that would otherwise be too small or sensitive (e.g., pilot-sized touch pads).",
+    "effect": {
+      "description": "Your mech has an extra set of limbs. They are too small to have any combat benefit, but allow the mech to interact with objects that would otherwise be too small or sensitive (e.g., pilot-sized touch pads)."
+    },
     "description": "Precise interaction with built and natural environments, soft targets, and hazardous materials is part of the daily routine for support-class mechs. This is made possible by manipulators – added multi-digit “hands” with haptic sensors.",
     "license_id": ""
   },
@@ -148,7 +158,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Deploy two sections of Size 1 hard cover in free spaces adjacent to you and to each other. Each section is an object with 5 Evasion and 10 HP that can be targeted and destroyed individually. Sections of cover can be picked up again as a full action.<br>Repairing the system restores both sections.",
+    "effect": {
+      "description": "Deploy two sections of Size 1 hard cover in free spaces adjacent to you and to each other. Each section is an object with 5 Evasion and 10 HP that can be targeted and destroyed individually. Sections of cover can be picked up again as a full action.<br>Repairing the system restores both sections."
+    },
     "deployables": [
       {
         "name": "Jericho Deployable Cover",
@@ -235,7 +247,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "You gain +2 HP and, in consultation with the GM, you may establish a minor modification you have made to your mech.<br>This mod has no numerical benefit beyond the additional HP it grants, but could provide other useful effects. If the GM agrees that this mod would help with either a pilot or mech skill check, you gain +1 Accuracy for that check.",
+    "effect": {
+      "description": "You gain +2 HP and, in consultation with the GM, you may establish a minor modification you have made to your mech.<br>This mod has no numerical benefit beyond the additional HP it grants, but could provide other useful effects. If the GM agrees that this mod would help with either a pilot or mech skill check, you gain +1 Accuracy for that check."
+    },
     "bonuses": [
       {
         "id": "hp",
@@ -256,7 +270,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "You gain +1 Accuracy on saves to avoid Prone or Knockback.",
+    "effect": {
+      "description": "You gain +1 Accuracy on saves to avoid Prone or Knockback."
+    },
     "license_id": ""
   },
   {
@@ -276,7 +292,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Expend a charge to deploy a turret drone that attaches to any object or surface within Sensors and line of sight. Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene.",
+    "effect": {
+      "description": "Expend a charge to deploy a turret drone that attaches to any object or surface within Sensors and line of sight. Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene."
+    },
     "deployables": [
       {
         "name": "Turret Drone",
@@ -343,7 +361,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech has a propulsion system suitable for use in low or zero gravity and underwater environments. In those environments, you can fly and are not Slowed.",
+    "effect": {
+      "description": "Your mech has a propulsion system suitable for use in low or zero gravity and underwater environments. In those environments, you can fly and are not Slowed."
+    },
     "synergies": [
       {
         "locations": ["move"],
@@ -365,7 +385,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "You can fly when you Boost; however, you must end the movement on the ground or another solid surface, or else immediately begin falling.",
+    "effect": {
+      "description": "You can fly when you Boost; however, you must end the movement on the ground or another solid surface, or else immediately begin falling."
+    },
     "synergies": [
       {
         "locations": ["boost"],
@@ -387,7 +409,9 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 0,
-    "effect": "You may choose to count any and all of your movement as flying; however, you take Size +1 Heat at the end of any of your turns in which you fly this way.",
+    "effect": {
+      "description": "You may choose to count any and all of your movement as flying; however, you take Size +1 Heat at the end of any of your turns in which you fly this way."
+    },
     "synergies": [
       {
         "locations": ["move"],
@@ -408,7 +432,9 @@
     "source": "IPS-N",
     "license": "Blackbeard",
     "license_level": 1,
-    "effect": "You may Ram targets larger than you, and when you Grapple or Ram larger targets, you count as the same Size as the largest opponent. When you Grapple or Ram opponents of the same Size or smaller, you count as at least one Size larger. Additionally, your lifting and dragging capacity is doubled.",
+    "effect": {
+      "description": "You may Ram targets larger than you, and when you Grapple or Ram larger targets, you count as the same Size as the largest opponent. When you Grapple or Ram opponents of the same Size or smaller, you count as at least one Size larger. Additionally, your lifting and dragging capacity is doubled."
+    },
     "synergies": [
       {
         "locations": ["ram"],
@@ -460,7 +486,9 @@
     "source": "IPS-N",
     "license": "Blackbeard",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and the SEKHMET Protocol.",
+    "effect": {
+      "description": "Your mech gains the AI tag and the SEKHMET Protocol."
+    },
     "actions": [
       {
         "name": "SEKHMET Protocol",
@@ -509,7 +537,9 @@
     "source": "IPS-N",
     "license": "Drake",
     "license_level": 2,
-    "effect": "Expend a charge to deploy a Size 1 shield generator in a free, adjacent space, where it creates a burst 1 shield.",
+    "effect": {
+      "description": "Expend a charge to deploy a Size 1 shield generator in a free, adjacent space, where it creates a burst 1 shield."
+    },
     "deployables": [
       {
         "type": "Deployable",
@@ -556,7 +586,9 @@
     "source": "IPS-N",
     "license": "Drake",
     "license_level": 3,
-    "effect": "Expend a charge to deploy a portable bunker to a free, adjacent area 4 by 4 area. At the start of your next turn, it unfolds into a fortified emplacement.",
+    "effect": {
+      "description": "Expend a charge to deploy a portable bunker to a free, adjacent area 4 by 4 area. At the start of your next turn, it unfolds into a fortified emplacement."
+    },
     "deployables": [
       {
         "type": "Deployable",
@@ -605,7 +637,9 @@
     "source": "IPS-N",
     "license": "Lancaster",
     "license_level": 1,
-    "effect": "Expend a charge to deploy a restock drone to any free, adjacent space, where it primes at the end of your turn.",
+    "effect": {
+      "description": "Expend a charge to deploy a restock drone to any free, adjacent space, where it primes at the end of your turn."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -640,7 +674,9 @@
     "source": "IPS-N",
     "license": "Lancaster",
     "license_level": 2,
-    "effect": "Extra mounts, straps, and hard points allow other characters to climb and ride your mech. Adjacent, non-Immobilized characters can climb onto your mech as a quick action. While riding, they occupy the same space as you, move when you move (even if they’re Slowed), and benefit from soft cover. If you or a rider are knocked Prone, Stunned, Immobilized, or destroyed, they land Prone in adjacent spaces. Riders can climb down as part of any movement away, but can only climb onto your mech as a quick action.<br>You can carry riders of a combined Size equal to your Size, minus Size 1/2 (e.g., if your mech is Size 1 you can carry one Size 1/2 character; if it is Size 2, you can carry a Size 1 character and a Size 1/2 character).",
+    "effect": {
+      "description": "Extra mounts, straps, and hard points allow other characters to climb and ride your mech. Adjacent, non-Immobilized characters can climb onto your mech as a quick action. While riding, they occupy the same space as you, move when you move (even if they’re Slowed), and benefit from soft cover. If you or a rider are knocked Prone, Stunned, Immobilized, or destroyed, they land Prone in adjacent spaces. Riders can climb down as part of any movement away, but can only climb onto your mech as a quick action.<br>You can carry riders of a combined Size equal to your Size, minus Size 1/2 (e.g., if your mech is Size 1 you can carry one Size 1/2 character; if it is Size 2, you can carry a Size 1 character and a Size 1/2 character)."
+    },
     "description": "The Multiple User, Light Entanglement (MULE) Harness is a mass-produced version of a common battlefield modification that allows friendly soldiers to ride along on a chassis. Some systems are large enough to allow smaller chassis to accompany larger chassis; typically, these variants are employed in high altitude, low orbit insertions where reduced radar presence is required.",
     "license_id": "mf_lancaster"
   },
@@ -704,7 +740,9 @@
     "source": "IPS-N",
     "license": "Nelson",
     "license_level": 1,
-    "effect": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain.",
+    "effect": {
+      "description": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain."
+    },
     "synergies": [
       {
         "locations": ["move"],
@@ -730,7 +768,9 @@
     "source": "IPS-N",
     "license": "Nelson",
     "license_level": 2,
-    "effect": "You can Brace while Grappling. When you do so, any grapples currently affecting you end.<br>Additionally, when you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>",
+    "effect": {
+      "description": "You can Brace while Grappling. When you do so, any grapples currently affecting you end.<br>Additionally, when you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
+    },
     "synergies": [
       {
         "locations": ["grapple"],
@@ -840,7 +880,9 @@
     "source": "IPS-N",
     "license": "Raleigh",
     "license_level": 2,
-    "effect": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br>On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone.",
+    "effect": {
+      "description": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br>On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone."
+    },
     "description": "Packed into sealed, self-contained cylinders, IPS-N’s “Roland Rounds” are high-explosive anti-armor charges built for kinetic weapons of any mech-scale caliber. Loaded in place of inert kinetic ammunition, a Roland HE/AA shell increases the efficacy and destructive power of any weapon it is fired from.",
     "license_id": "mf_raleigh"
   },
@@ -856,7 +898,9 @@
     "source": "IPS-N",
     "license": "Tortuga",
     "license_level": 1,
-    "effect": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain.",
+    "effect": {
+      "description": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain."
+    },
     "synergies": [
       {
         "locations": ["ram"],
@@ -913,7 +957,9 @@
     "source": "IPS-N",
     "license": "Vlad",
     "license_level": 1,
-    "effect": "Expend a charge to deploy a Webjaw snare to a free, adjacent space, where it arms at the end of your turn.",
+    "effect": {
+      "description": "Expend a charge to deploy a Webjaw snare to a free, adjacent space, where it arms at the end of your turn."
+    },
     "deployables": [
       {
         "type": "Deployable",
@@ -998,7 +1044,9 @@
     "source": "SSC",
     "license": "Black Witch",
     "license_level": 2,
-    "effect": "Expend a charge to deploy an ICEOUT drone to a free space within Sensors and line of sight, where it hovers in place and generates a burst 1 field.",
+    "effect": {
+      "description": "Expend a charge to deploy an ICEOUT drone to a free space within Sensors and line of sight, where it hovers in place and generates a burst 1 field."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -1034,7 +1082,9 @@
     "source": "SSC",
     "license": "Black Witch",
     "license_level": 2,
-    "effect": "This heavy metal Perimeter Command Plate (PCP) can be flash-printed and deployed to a free 2x2 space within range 5. The PCP is flat, doesn’t obstruct movement, and lasts for the rest of the scene. If you create a new PCP, the old one disintegrates.",
+    "effect": {
+      "description": "This heavy metal Perimeter Command Plate (PCP) can be flash-printed and deployed to a free 2x2 space within range 5. The PCP is flat, doesn’t obstruct movement, and lasts for the rest of the scene. If you create a new PCP, the old one disintegrates."
+    },
     "deployables": [
       {
         "name": "Perimeter Command Plate",
@@ -1061,7 +1111,9 @@
     "source": "SSC",
     "license": "Black Witch",
     "license_level": 3,
-    "effect": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br>Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency.",
+    "effect": {
+      "description": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br>Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency."
+    },
     "description": "Black ICE modules are defensive systems packaged standard with the Black Witch fleets used by SSC's own internal security forces. They project a bubble of WHITECELL code that analyzes incoming hostile script and structures inoculants for friendly systems on the fly.",
     "counters": [
       {
@@ -1111,7 +1163,9 @@
     "source": "SSC",
     "license": "Death’s Head",
     "license_level": 1,
-    "effect": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone.",
+    "effect": {
+      "description": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone."
+    },
     "synergies": [
       {
         "locations": ["move"],
@@ -1172,7 +1226,9 @@
     "source": "SSC",
     "license": "Death’s Head",
     "license_level": 3,
-    "effect": "When you miss with a ranged attack roll, your next ranged attack roll gains +1 accuracy.",
+    "effect": {
+      "description": "When you miss with a ranged attack roll, your next ranged attack roll gains +1 accuracy."
+    },
     "synergies": [
       {
         "locations": ["weapon"],
@@ -1223,7 +1279,9 @@
     "source": "SSC",
     "license": "Dusk Wing",
     "license_level": 2,
-    "effect": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time.",
+    "effect": {
+      "description": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time."
+    },
     "synergies": [
       {
         "locations": ["move", "boost"],
@@ -1351,7 +1409,9 @@
     "source": "SSC",
     "license": "Metalmark",
     "license_level": 1,
-    "effect": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed.",
+    "effect": {
+      "description": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed."
+    },
     "synergies": [
       {
         "locations": ["Brace"],
@@ -1427,7 +1487,9 @@
     "source": "SSC",
     "license": "Monarch",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and the TLALOC Protocol.",
+    "effect": {
+      "description": "Your mech gains the AI tag and the TLALOC Protocol."
+    },
     "actions": [
       {
         "name": "TLALOC Protocol",
@@ -1524,7 +1586,9 @@
     "source": "SSC",
     "license": "Swallowtail",
     "license_level": 1,
-    "effect": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action.",
+    "effect": {
+      "description": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -1597,7 +1661,9 @@
     "source": "SSC",
     "license": "Swallowtail",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and Simulacrum.",
+    "effect": {
+      "description": "Your mech gains the AI tag and Simulacrum."
+    },
     "actions": [
       {
         "name": "Simulacrum",
@@ -1638,7 +1704,9 @@
     "source": "HORUS",
     "license": "Balor",
     "license_level": 1,
-    "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action.",
+    "effect": {
+      "description": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -1668,7 +1736,9 @@
     "source": "HORUS",
     "license": "Balor",
     "license_level": 1,
-    "effect": "You gain +1 accuracy on tech attacks against adjacent characters.",
+    "effect": {
+      "description": "You gain +1 accuracy on tech attacks against adjacent characters."
+    },
     "description": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning.",
     "license_id": "mf_balor"
   },
@@ -1791,13 +1861,15 @@
     "source": "HORUS",
     "license": "Goblin",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and and can perform the Hurl Into the Duat QUICK TECH option.",
+    "effect": {
+      "description": "Your mech gains the AI tag and and can perform the Hurl Into the Duat QUICK TECH option."
+    },
     "actions": [
       {
         "name": "Hurl Into the Duat",
         "activation": "Quick Tech",
         "tech_attack": true,
-        "detail": "You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.<br>Make a tech attack against a target within Sensors. On a success, they take 2 heat and you inflict an additional effect as follows: the first time you successfully make this attack, you inflict the First Gate on your target; each subsequent successful attack (on any target) increases the level of the effect that you inflict (e.g. your second attack inflicts the Second Gate, your third inflicts the Third Gate, etc.) until you inflict the Fourth Gate, after which the effect resets to the First Gate. Your progress persists between scenes but resets if you rest or perform a Full Repair.<br>First Gate: You control your target’s standard move next turn.<br>Second Gate: Your target becomes Slowed and Impaired until the end of their next turn.<br>Third Gate: Your target becomes Stunned until the end of their next turn.<br>Fourth Gate: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save. This action may only be used 1/round"
+        "detail": "You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.<br>Make a tech attack against a target within Sensors. On a success, they take 2 heat and you inflict an additional effect as follows: the first time you successfully make this attack, you inflict the First Gate on your target; each subsequent successful attack (on any target) increases the level of the effect that you inflict (e.g. your second attack inflicts the Second Gate, your third inflicts the Third Gate, etc.) until you inflict the Fourth Gate, after which the effect resets to the First Gate. Your progress persists between scenes but resets if you rest or perform a Full Repair. This action may only be used 1/round.<br>First Gate: You control your target’s standard move next turn.<br>Second Gate: Your target becomes Slowed and Impaired until the end of their next turn.<br>Third Gate: Your target becomes Stunned until the end of their next turn.<br>Fourth Gate: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save. "
       }
     ],
     "description": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe.",
@@ -1843,7 +1915,9 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 1,
-    "effect": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction.",
+    "effect": {
+      "description": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction."
+    },
     "actions": [
       {
         "name": "Activate Mimic Mesh",
@@ -1869,7 +1943,9 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 1,
-    "effect": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action.",
+    "effect": {
+      "description": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -1899,7 +1975,9 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 2,
-    "effect": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>",
+    "effect": {
+      "description": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>"
+    },
     "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
     "license_id": "mf_gorgon"
   },
@@ -1953,7 +2031,9 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and Unleash SCYLLA.",
+    "effect": {
+      "description": "Your mech gains the AI tag and Unleash SCYLLA."
+    },
     "actions": [
       {
         "name": "Unleash SCYLLA",
@@ -2008,7 +2088,9 @@
     "source": "HORUS",
     "license": "Hydra",
     "license_level": 2,
-    "effect": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight.",
+    "effect": {
+      "description": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -2043,7 +2125,9 @@
     "source": "HORUS",
     "license": "Hydra",
     "license_level": 3,
-    "effect": "This assassin drone may be deployed to any free, adjacent space.",
+    "effect": {
+      "description": "This assassin drone may be deployed to any free, adjacent space."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -2405,7 +2489,9 @@
     "source": "HORUS",
     "license": "Pegasus",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and Bend Probability.",
+    "effect": {
+      "description": "Your mech gains the AI tag and Bend Probability."
+    },
     "actions": [
       {
         "name": "Bend Probability",
@@ -2514,7 +2600,9 @@
     "source": "HA",
     "license": "Barbarossa",
     "license_level": 2,
-    "effect": "Expend a charge to deploy this autoloader drone to any adjacent space.",
+    "effect": {
+      "description": "Expend a charge to deploy this autoloader drone to any adjacent space."
+    },
     "deployables": [
       {
         "type": "Drone",
@@ -2586,7 +2674,9 @@
     "source": "HA",
     "license": "Genghis",
     "license_level": 1,
-    "effect": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn.",
+    "effect": {
+      "description": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn."
+    },
     "description": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots.",
     "license_id": "mf_genghis"
   },
@@ -2689,7 +2779,9 @@
     "source": "HA",
     "license": "Genghis",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and the AGNI Protocol.",
+    "effect": {
+      "description": "Your mech gains the AI tag and the AGNI Protocol."
+    },
     "actions": [
       {
         "name": "AGNI Protocol",
@@ -2844,7 +2936,9 @@
     "source": "HA",
     "license": "Napoleon",
     "license_level": 1,
-    "effect": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used.",
+    "effect": {
+      "description": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used."
+    },
     "actions": [
       {
         "name": "Charge Stasis Bolt",
@@ -2910,7 +3004,9 @@
     "source": "HA",
     "license": "Napoleon",
     "license_level": 2,
-    "effect": "Expend a charge to activate this stasis barrier, generating a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you.",
+    "effect": {
+      "description": "Expend a charge to activate this stasis barrier, generating a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you."
+    },
     "deployables": [
       {
         "type": "Deployable",
@@ -3073,7 +3169,9 @@
     "source": "HA",
     "license": "Saladin",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and Diluvian Ark.",
+    "effect": {
+      "description": "Your mech gains the AI tag and Diluvian Ark."
+    },
     "actions": [
       {
         "name": "Diluvian Ark",
@@ -3096,7 +3194,9 @@
     "source": "HA",
     "license": "Sherman",
     "license_level": 1,
-    "effect": "You may reroll overheating checks, but must keep the second result, even if it’s worse.",
+    "effect": {
+      "description": "You may reroll overheating checks, but must keep the second result, even if it’s worse."
+    },
     "description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed.",
     "license_id": "mf_sherman"
   },
@@ -3149,7 +3249,9 @@
     "source": "HA",
     "license": "Sherman",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and the ASURA Protocol.",
+    "effect": {
+      "description": "Your mech gains the AI tag and the ASURA Protocol."
+    },
     "actions": [
       {
         "name": "ASURA Protocol",
@@ -3172,7 +3274,9 @@
     "source": "HA",
     "license": "Tokugawa",
     "license_level": 1,
-    "effect": "Weapons that deal any energy gain +5 RANGE if they are ranged or +1 THREAT if they are melee. When you take any structure damage, this system is destroyed and you take 1d6 AP explosive damage from the explosion. This damage can’t be prevented or reduced in any way.",
+    "effect": {
+      "description": "Weapons that deal any energy gain +5 RANGE if they are ranged or +1 THREAT if they are melee. When you take any structure damage, this system is destroyed and you take 1d6 AP explosive damage from the explosion. This damage can’t be prevented or reduced in any way."
+    },
     "bonuses": [
       {
         "id": "range",
@@ -3204,7 +3308,9 @@
     "source": "HA",
     "license": "Tokugawa",
     "license_level": 2,
-    "effect": "When you start your turn in the Danger Zone, you gain Resistance to heat for the rest of the turn. This effect persists even if you leave the Danger Zone during your turn.",
+    "effect": {
+      "description": "When you start your turn in the Danger Zone, you gain Resistance to heat for the rest of the turn. This effect persists even if you leave the Danger Zone during your turn."
+    },
     "description": "The Deep Well experimental heat-sink system is a part of the Armory’s VANGUARD line of equipment, available to licensed beta testers. Through a complex, delicate weave of heat exchangers, Deep Well recycles the heat generated by a mech into usable energy. The system works well, but the delicate nature of the exchange renders it highly volatile.",
     "license_id": "mf_tokugawa"
   },
@@ -3232,7 +3338,9 @@
     "source": "HA",
     "license": "Tokugawa",
     "license_level": 3,
-    "effect": "Your mech gains the AI tag and the LUCIFER Protocol.",
+    "effect": {
+      "description": "Your mech gains the AI tag and the LUCIFER Protocol."
+    },
     "actions": [
       {
         "name": "LUCIFER Protocol",
@@ -3290,7 +3398,9 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech gains the AI tag.<br>You have developed a custom NHP. This NHP can speak to you and has a personality, but they are less advanced than most NHPs and are incapable of independent thought, relying on you for direction. When acting alone, they will follow the last direction given and defend themself as needed; however, they have limited initiative and don’t benefit from your talents.",
+    "effect": {
+      "description": "Your mech gains the AI tag.<br>You have developed a custom NHP. This NHP can speak to you and has a personality, but they are less advanced than most NHPs and are incapable of independent thought, relying on you for direction. When acting alone, they will follow the last direction given and defend themself as needed; however, they have limited initiative and don’t benefit from your talents."
+    },
     "description": "<span class='horus--subtle'>[an eager student].</span><br>Gained from the <i>Technophile: Rank I</i> pilot talent.",
     "license_id": ""
   },
@@ -3317,7 +3427,9 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech gains the AI tag.<br>Your custom NHP has developed further, and is now capable of independent thought. It can make complex decisions and judgments and act independently, without instruction.<br>1/round, with the assistance of your NHP, you may reroll any mech skill check or save. You must keep the new result, even if it’s worse.",
+    "effect": {
+      "description": "Your mech gains the AI tag.<br>Your custom NHP has developed further, and is now capable of independent thought. It can make complex decisions and judgments and act independently, without instruction.<br>1/round, with the assistance of your NHP, you may reroll any mech skill check or save. You must keep the new result, even if it’s worse."
+    },
     "description": "<span class='horus--subtle'>[time to wake up, child]</span><br>Gained from the <i>Technophile: Rank II</i> pilot talent.",
     "license_id": ""
   },
@@ -3336,12 +3448,24 @@
       {
         "id": "tg_round",
         "val": 1
+      },
+      {
+        "id": "tg_ai",
+        "val": 1
+      }
+    ],
+    "bonuses": [
+      {
+        "id": "ai_cap",
+        "val": 1
       }
     ],
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "Your mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once.<br>This NHP benefits from your talents when piloting your mech. Additionally, you may carry them with you outside of your mech, either as a miniaturized casket, a hardsuit-integrated flash plug, or with a hard-port implant.<br>1/round, with the assistance of your NHP, you may reroll any mech skill check or save. You must keep the new result, even if it’s worse.",
+    "effect": {
+      "description": "Your mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once.<br>This NHP benefits from your talents when piloting your mech. Additionally, you may carry them with you outside of your mech, either as a miniaturized casket, a hardsuit-integrated flash plug, or with a hard-port implant.<br>1/round, with the assistance of your NHP, you may reroll any mech skill check or save. You must keep the new result, even if it’s worse."
+    },
     "description": "<span class='horus--subtle'>[let’s sit a while, and think on things to come]</span><br>Gained from the <i>Technophile: Rank III</i> pilot talent.",
     "license_id": ""
   },
@@ -3365,7 +3489,9 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost.",
+    "effect": {
+      "description": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost."
+    },
     "ammo": [
       {
         "name": "Thumper",
@@ -3409,7 +3535,9 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost.",
+    "effect": {
+      "description": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost."
+    },
     "ammo": [
       {
         "name": "Thumper",
@@ -3474,7 +3602,9 @@
     "source": "",
     "license": "GMS",
     "license_level": 0,
-    "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost. If you perform a critical hit using ammunition from your Ammo Case, you don’t expend any charges. If your attack has more than one target, this effect only applies to the first attack roll you make.",
+    "effect": {
+      "description": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost. If you perform a critical hit using ammunition from your Ammo Case, you don’t expend any charges. If your attack has more than one target, this effect only applies to the first attack roll you make."
+    },
     "ammo": [
       {
         "name": "Thumper",

@@ -1073,6 +1073,7 @@
         "synergies": [
           {
             "locations": ["weapon"],
+            "weapon_sizes": ["Auxiliary", "Heavy", "Main"],
             "detail": "Before or after you Skirmish (including as a reaction, e.g. from Overwatch), you may move 2 spaces. This movement ignores engagement and doesn’t provoke reactions."
           }
         ]

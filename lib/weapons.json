@@ -690,7 +690,9 @@
     "source": "IPS-N",
     "license": "Blackbeard",
     "license_level": 2,
-    "effect": "This weapon ignores ranged penalties from Engaged, and deals 3 Kinetic damage to Grappled or Biological targets, instead of 1.",
+    "effect": {
+      "description": "This weapon ignores ranged penalties from Engaged, and deals 3 Kinetic damage to Grappled or Biological targets, instead of 1."
+    },
     "description": "The IPS-N Bristlecrown Flechette Launcher uses a hive-analogous mechanism to project a total soft-target kill zone in a dome around the user, proactively denying hostile infantry-tier actions.",
     "license_id": "mf_blackbeard"
   },
@@ -938,7 +940,9 @@
     "source": "IPS-N",
     "license": "Lancaster",
     "license_level": 3,
-    "effect": "This weapon deals 10AP energy to objects, cover, terrain, and the environment.",
+    "effect": {
+      "description": "This weapon deals 10AP energy to objects, cover, terrain, and the environment."
+    },
     "description": "Plasma cutters were tools first: simple blades built to toggle and sustain a plasma sheath, making it easier to cut metal. Repeated ad hoc use of cutters as personal defense weapons against pirate boarding parties convinced IPS-N of the need for a mil-spec variant of the civilian tool – the Cutter, now in its second generation. The Cutter MkII feeds directly from the mech’s power core, with a port to attach power packs in case of cord severance. Although the cutting edge can be shortened to a knife length, its most popular setting is the “cutlass”, a medium-length option perfect for balancing reach and maneuverability in close quarters.",
     "license_id": "mf_lancaster"
   },
@@ -1281,7 +1285,9 @@
     "source": "IPS-N",
     "license": "Vlad",
     "license_level": 3,
-    "effect": "When attacking a character that is Prone, Immobilized, or Stunned, this weapon’s Overkill tag does an extra +1d6 bonus damage each time it activates. This can activate indefinitely if the new bonus die result is a 1, triggering Overkill again.",
+    "effect": {
+      "description": "When attacking a character that is Prone, Immobilized, or Stunned, this weapon’s Overkill tag does an extra +1d6 bonus damage each time it activates. This can activate indefinitely if the new bonus die result is a 1, triggering Overkill again."
+    },
     "description": "The combat drill is a brutal close-combat weapon, powered by a massive external catalyst pack. The bit is tipped with microplasmatic projectors designed to pre-treat the target and ensure drill penetration.",
     "license_id": "mf_vlad"
   },
@@ -1404,7 +1410,9 @@
     "source": "SSC",
     "license": "Dusk Wing",
     "license_level": 1,
-    "effect": "This weapon does not attack allied characters caught in its area of effect; instead, it shrouds them in a field of coruscating energy that throws off targeting systems, giving them soft cover until the end of their next turn.",
+    "effect": {
+      "description": "This weapon does not attack allied characters caught in its area of effect; instead, it shrouds them in a field of coruscating energy that throws off targeting systems, giving them soft cover until the end of their next turn."
+    },
     "description": "“We made first contact maybe an hour after breaching the vault. I remember nothing of it. I’m told most of my squad was killed outright; all I remember is light – brilliant – and a lightness in my own being.<br>“I do believe that I died in that moment, and yet I’m here, and I can’t square these two realities. Something has gone wrong, something has gone wrong, something has gone–”",
     "license_id": "mf_dusk_wing"
   },
@@ -1535,7 +1543,9 @@
     "source": "SSC",
     "license": "Monarch",
     "license_level": 1,
-    "effect": "This weapon can attack two targets at a time.",
+    "effect": {
+      "description": "This weapon can attack two targets at a time."
+    },
     "description": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
     "license_id": "mf_monarch"
   },
@@ -1607,7 +1617,9 @@
     "source": "SSC",
     "license": "Monarch",
     "license_level": 3,
-    "effect": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose the target area(s), which become visible to all characters: the missiles land at the end of the next round, after all characters have acted, and deal 3d6 explosive damage instead of 2d6, but you become Slowed until the end of your next turn.",
+    "effect": {
+      "description": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose the target area(s), which become visible to all characters: the missiles land at the end of the next round, after all characters have acted, and deal 3d6 explosive damage instead of 2d6, but you become Slowed until the end of your next turn."
+    },
     "description": "Pinaka missiles are massive, two-stage missiles typically mounted along a mech’s spine or carried, disassembled, to be launched from a brachial mount. The Pinaka was originally adapted from ship-to-ship missiles; as such, their second stage uses jet-assist repositioning for midflight orientation.",
     "license_id": "mf_monarch"
   },
@@ -1823,7 +1835,9 @@
     "source": "HORUS",
     "license": "Goblin",
     "license_level": 1,
-    "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+    "effect": {
+      "description": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod"
+    },
     "actions": [
       {
         "name": "Autonomous Assault",
@@ -1858,7 +1872,9 @@
     "source": "HORUS",
     "license": "Gorgon",
     "license_level": 3,
-    "effect": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon.",
+    "effect": {
+      "description": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon."
+    },
     "actions": [
       {
         "name": "Snicker-Snack",
@@ -1928,7 +1944,9 @@
     "source": "HORUS",
     "license": "Hydra",
     "license_level": 2,
-    "effect": "This weapon may be used to attack as normal, or deployed as a Drone",
+    "effect": {
+      "description": "This weapon may be used to attack as normal, or deployed as a Drone"
+    },
     "deployables": [
       {
         "name": "Ghast Drone",
@@ -2108,7 +2126,9 @@
     "source": "HORUS",
     "license": "Pegasus",
     "license_level": 2,
-    "effect": "This horrifying weapon has no basic form; it constantly contorts itself into different shapes, mimicking the weapons of other combatants. It counts as all ranged weapon types simultaneously (e.g., CQB, Rifle, etc.), but it can’t take Mods or benefit from core bonuses, although it still benefits from talents as normal.<br>At the start of combat, roll 3d20 and note the results in order: X, Y, and Z. X is its starting base Range (before modifications from talents). At the start of each of your turns after the first, the mimic gun cycles to the next result, taking that as its base Range. After Z, it cycles back to X.<br>The mimic gun does kinetic equal to 1 + half of its current base Range.<br>You may provoke the mimic gun as a full action, rolling a new set of 3d20.",
+    "effect": {
+      "description": "This horrifying weapon has no basic form; it constantly contorts itself into different shapes, mimicking the weapons of other combatants. It counts as all ranged weapon types simultaneously (e.g., CQB, Rifle, etc.), but it can’t take Mods or benefit from core bonuses, although it still benefits from talents as normal.<br>At the start of combat, roll 3d20 and note the results in order: X, Y, and Z. X is its starting base Range (before modifications from talents). At the start of each of your turns after the first, the mimic gun cycles to the next result, taking that as its base Range. After Z, it cycles back to X.<br>The mimic gun does kinetic equal to 1 + half of its current base Range.<br>You may provoke the mimic gun as a full action, rolling a new set of 3d20."
+    },
     "actions": [
       {
         "name": "Provoke Mimic Gun",
@@ -2148,7 +2168,9 @@
         "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents."
       }
     ],
-    "effect": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
+    "effect": {
+      "description": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents."
+    },
     "description": "As the name implies, autoguns are automated weapons. Similar to point-defense systems, autoguns are chambered to provide effective fire against armored targets. Typically mounted on a stabilized, secondary arm, a reliably tuned autogun can be trusted to track and eliminate designated enemy units while a pilot concentrates on more specialized weapons or processes. Cheap, with malleable codebases, autoguns are common among active, armed HORUS cells.",
     "sp": 1,
     "license_id": "mf_pegasus"
@@ -2288,7 +2310,9 @@
     "source": "HA",
     "license": "Genghis",
     "license_level": 3,
-    "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
+    "effect": {
+      "description": "Can be fired as Cone 7 <i>or</i> Line 10"
+    },
     "on_attack": "White-hot flames continue to burn in 3 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 1d6 energy damage.",
     "description": "The plasma thrower emerged too late in the Hercynian Crisis to see widespread use in the field. The scarce data gathered from the MEF squadrons that used it suggest that plasma throwers would have had a tremendous impact on the outcomes of several major battles that occurred during the bloodiest phase of the Crisis.",
     "license_id": "mf_genghis"
@@ -2418,7 +2442,9 @@
     "source": "HA",
     "license": "Saladin",
     "license_level": 1,
-    "effect": "The final attack roll for this weapon can never be affected by difficulty.",
+    "effect": {
+      "description": "The final attack roll for this weapon can never be affected by difficulty."
+    },
     "description": "Developed following costly urban and naval boarding engagements in the Interest War, Shatterhead Colony Missiles are now a standard part of the arsenal fielded by Armory interdiction teams. When they reach an optimal distance, Shatterheads break open in a burst of high-catalyst fuel to reveal a cluster of small thermobaric pellets that spread out and ignite, choking the affected area with flame. The effect overloads energy shielding and saturates cover, though only a small percent of the projectiles actually reach their target.",
     "sp": 1,
     "license_id": "mf_saladin"
@@ -2681,7 +2707,9 @@
     "talent_item": true,
     "talent_id": "t_engineer",
     "talent_rank": 1,
-    "effect": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses.",
+    "effect": {
+      "description": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses."
+    },
     "description": "Gained from the <i>\"Engineer\" Rank I</i> Talent",
     "license_id": ""
   },
@@ -2727,7 +2755,9 @@
     "talent_item": true,
     "talent_id": "t_engineer",
     "talent_rank": 2,
-    "effect": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses and choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></li></ul></ul>",
+    "effect": {
+      "description": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses and choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></li></ul></ul>"
+    },
     "description": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
     "license_id": ""
   },
@@ -2773,7 +2803,9 @@
     "talent_item": true,
     "talent_id": "t_engineer",
     "talent_rank": 3,
-    "effect": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 2d6 to determine this weapon’s Limited uses and choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></li></ul></ul>",
+    "effect": {
+      "description": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 2d6 to determine this weapon’s Limited uses and choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></li></ul></ul>"
+    },
     "description": "Gained from the <i>\"Engineer\" Rank III</i> Talent",
     "license_id": ""
   },
@@ -2789,7 +2821,9 @@
         "val": 8
       }
     ],
-    "effect": "This weapon can’t make normal attacks. Instead, choose an allied mech within Range and line of sight and make a ranged attack against Evasion 8. On a hit, either you or your target may spend 1 Repair to restore half your target’s HP.",
+    "effect": {
+      "description": "This weapon can’t make normal attacks. Instead, choose an allied mech within Range and line of sight and make a ranged attack against Evasion 8. On a hit, either you or your target may spend 1 Repair to restore half your target’s HP."
+    },
     "license_id": ""
   },
   {
@@ -2813,7 +2847,9 @@
         "val": 4
       }
     ],
-    "effect": "1/round, when you reload any weapon, this weapon can be fired as a free action.",
+    "effect": {
+      "description": "1/round, when you reload any weapon, this weapon can be fired as a free action."
+    },
     "license_id": ""
   },
   {
@@ -2823,7 +2859,9 @@
     "type": "Spool Weapon",
     "skirmish": false,
     "barrage": false,
-    "effect": "The Apocalypse Rail must be charged before it can be fired, using the Charge Rail CORE Power.<br>This weapon has different profiles determined by the current value of the APOCALYPSE DIE when you fire it. Each profile replaces the one proceeding it. The Apocalypse Rail cannot be fired at targets within range 5.<br> After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4.",
+    "effect": {
+      "description": "The Apocalypse Rail must be charged before it can be fired, using the Charge Rail CORE Power.<br>This weapon has different profiles determined by the current value of the APOCALYPSE DIE when you fire it. Each profile replaces the one proceeding it. The Apocalypse Rail cannot be fired at targets within range 5.<br> After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4."
+    },
     "actions": [
       {
         "name": "Fire Apocalypse Rail",
